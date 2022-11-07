@@ -7,10 +7,10 @@ class MainController extends Controller
 {
     public function indexAction()
     {
-
+        $serve = $_SERVER['HTTP_HOST'];
         $vars = [
             'name' => 'Firdavs',
-            'username' => '',
+            'server' => $serve,
         ];
         $this->view->render('',$vars);
 

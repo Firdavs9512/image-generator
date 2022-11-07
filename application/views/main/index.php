@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random images generator - created by Firdavs</title>
+    <meta name="description" content="The Random Picture Generator contains 1,000+ random images. Enjoy finding random pictures and photos.">
+    <meta property="og:description" content="All category images one website and free api service. There are about 10,000 images on the website. The API is written in the php programming language.">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
     <link rel="stylesheet" type="text/css"
@@ -96,18 +98,18 @@
         <div id="slider-1">
             <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
                 <h2 class="white fs-l3 fw-900">All random images one website!</h2>
-                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">GET -> https://localhost:8000/api/image </p>
-                <a href="#" onclick="copyToClipboard('https://localhost:8000/api/image')" class="button-md bg-indigo white fs-s3 br-4 black fw-600 no-underline m-5">COPY LINK</a>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">GET -> https://<?php echo $server?>/api/image </p>
+                <a href="#" onclick="copyToClipboard('https://<?php echo $server?>/api/image')" class="button-md bg-indigo white fs-s3 br-4 black fw-600 no-underline m-5">COPY LINK</a>
             </div>
             <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
                 <h2 class="white fs-l3 fw-900">All desktop view images in one place.</h2>
-                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">GET -> https://localhost:8000/api/image </p>
-                <a href="#" onclick="copyToClipboard('https://localhost:8000/api/image')" class="button-md bg-indigo white fs-s3 br-4 black fw-600 no-underline m-5">COPY LINK</a>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">GET -> https://<?php echo $server?>/api/image </p>
+                <a href="#" onclick="copyToClipboard('https://<?php echo $server?>/api/image')" class="button-md bg-indigo white fs-s3 br-4 black fw-600 no-underline m-5">COPY LINK</a>
             </div>
             <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
                 <h2 class="white fs-l3 fw-900">All mobile view images in one place.</h2>
-                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">GET -> https://localhost:8000/api/image </p>
-                <a href="#" onclick="copyToClipboard('https://localhost:8000/api/image')" class="button-md bg-indigo white fs-s3 br-4 black fw-600 no-underline m-5">COPY LINK</a>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">GET -> https://<?php echo $server?>/api/image </p>
+                <a href="#" onclick="copyToClipboard('https://<?php echo $server?>/api/image')" class="button-md bg-indigo white fs-s3 br-4 black fw-600 no-underline m-5">COPY LINK</a>
             </div>
         </div>
         <ul class="absolute list-none w-100pc flex justify-between top-50pc">
@@ -346,27 +348,28 @@
         <div id="blog" class="flex flex-wrap">
             <div class="w-100pc md-w-33pc p-10">
                 <a href="#" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
-                    <img class="w-100pc" src="application/views/main/assets/images/yoann-siloine-dyaxQ-aoGWY-unsplash.jpg" alt="">
+                    <!-- <img class="w-100pc" src="application/views/main/assets/images/yoann-siloine-dyaxQ-aoGWY-unsplash.jpg" alt=""> -->
+                    <img class="w-100pc" src="http://<?php echo $server?>/api/image" alt="">
                     <p class="fw-600 white fs-m3 mt-3">
-                        We created this website to generate random images and more.
+                        Random images for category image. 
                     </p>
                     <div class="indigo fs-s3 italic after-arrow-right my-4">3 days ago by Firdavs</div>
                 </a>
             </div>
             <div class="w-100pc md-w-33pc p-10">
                 <a href="#" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
-                    <img class="w-100pc" src="application/views/main/assets/images/fabrice-villard-Jrl_UQcZqOc-unsplash.jpg" alt="">
+                    <img class="w-100pc" src="http://<?php echo $server?>/api/mobile" alt="">
                     <p class="fw-600 white fs-m3 mt-3">
-                        We created this website to generate random images and more.
+                    Random images for category mobile. 
                     </p>
                     <div class="indigo fs-s3 italic after-arrow-right my-4">3 days ago by Firdavs</div>
                 </a>
             </div>
             <div class="w-100pc md-w-33pc p-10">
                 <a href="#" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
-                    <img class="w-100pc" src="application/views/main/assets/images/florian-klauer-mk7D-4UCfmg-unsplash.jpg" alt="">
+                    <img class="w-100pc" src="http://<?php echo $server?>/api/desktop" alt="">
                     <p class="fw-600 white fs-m3 mt-3">
-                        We created this website to generate random images and more.
+                     Random images for category desktop. 
                     </p>
                     <div class="indigo fs-s3 italic after-arrow-right my-4">3 days ago by Firdavs</div>
                 </a>

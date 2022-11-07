@@ -18,17 +18,17 @@ class ImageController extends Controller
 
     public function mobileAction()
     {
-        $random = rand(1,18);
+        $random = rand(1,29);
         header('Content-type: image/jpeg');
-        $file = __DIR__.'../../storage/image/images/'.$random.'.jpg';
+        $file = __DIR__.'../../storage/image/Mobile/'.$random.'.jpg';
         readfile($file);
     }
 
     public function desktopAction()
     {
-        $random = rand(1,18);
+        $random = rand(1,26);
         header('Content-type: image/jpeg');
-        $file = __DIR__.'../../storage/image/images/'.$random.'.jpg';
+        $file = __DIR__.'../../storage/image/Desktop/'.$random.'.jpg';
         readfile($file);
     }
 
