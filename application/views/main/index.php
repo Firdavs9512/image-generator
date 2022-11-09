@@ -336,7 +336,7 @@
             <p class="indigo-lightest fw-600 fs-m1 opacity-50 my-5">You can find a picture in any direction, in any section. </p>
         </div>
         <div class="relative w-100pc h-75vh bg-cover bg-b"
-            style="background-image: url(application/views/main/assets/images/nicholas-kwok-VBWWscZtszY-unsplash.jpg);">
+            style="background-image: url(https://raw.githubusercontent.com/Firdavs9512/image-generator/master/application/views/main/assets/images/nicholas-kwok-VBWWscZtszY-unsplash.jpg);">
             <a href="#"
                 class="bg-white black px-5 py-3 absolute right-0 bottom-0 hover-bg-black hover-white ease-500 flex justify-center items-center after-arrow-right no-underline fs-m1"></a>
         </div>
@@ -401,7 +401,7 @@
     <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
         <div class="flex flex-wrap">
             <div class="md-w-25pc mb-10">
-                <img src="application/views/main/assets/images/logo.png" class="w-l5" alt="">
+                <img src="https://raw.githubusercontent.com/Firdavs9512/image-generator/master/application/views/main/assets/images/logo.png" class="w-l5" alt="">
                 <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
                     <p>If you're in search of random pictures, you should love all of the random images we've collected in this random picture generator. With over 1000 pictures in the database, you're sure to find some that meet your particular needs.</p>
                     <br>
@@ -481,7 +481,7 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="application/views/main/assets/js/script.js"></script>
+    <script src="https://raw.githubusercontent.com/Firdavs9512/image-generator/master/application/views/main/assets/js/script.js"></script>
 </body>
 
 </html>
