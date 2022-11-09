@@ -8,9 +8,16 @@ class ImageController extends Controller
 {
     public function imageAction()
     {
-        $random = rand(1,18);
+        $images = [
+            ['Mobile',29],
+            ['Desktop',26]
+            
+        ];
+        $random = rand(0,1);
+        $folder = $images[$random];
         header('Content-type: image/jpeg');
-        $file = __DIR__.'../../storage/image/images/'.$random.'.jpg';
+        $randomImage = rand(1,$folder[1]);
+        $file = __DIR__.'../../storage/image/'.$folder[0].'/'.$randomImage.'.jpg';
         readfile($file);
         // pasdagi hozir qaysi urlda ekanligimizni bildiradi.
         // var_dump($this->route);
