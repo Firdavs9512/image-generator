@@ -18,7 +18,7 @@
     <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
         <div class="flex justify-between">
             <a href="#" class="flex items-center p-2 mr-4 no-underline">
-                <img class="max-h-l2 w-auto" src="application/views/main/assets/images/logo.png" />
+                <img class="max-h-l2 w-auto" src="https://raw.githubusercontent.com/Firdavs9512/image-generator/master/application/views/main/assets/images/logo.png" />
             </a>
             <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
                 class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
